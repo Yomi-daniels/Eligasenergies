@@ -5,38 +5,38 @@ const Services = () => {
   const services = [
     {
       icon: <Flame className="w-12 h-12" />,
-      title: "Cylinder Refills",
+      title: "LPG Refilling & Distribution",
       description: "Quick and safe LPG refilling services at competitive prices. We handle all cylinder sizes from 3kg to 50kg with precision and care.",
       features: ["All cylinder sizes", "Quality assured gas", "Competitive pricing", "Quick turnaround"],
     },
     {
       icon: <RefreshCw className="w-12 h-12" />,
-      title: "Cylinder Exchange",
+      title: "Cylinder Exchange Program",
       description: "Exchange your empty cylinder for a pre-filled one instantly at our hub. No waiting, no hassle - just swap and go.",
       features: ["Instant exchange", "Pre-filled cylinders", "Quality checked", "Multiple locations"],
     },
     {
       icon: <ShoppingBag className="w-12 h-12" />,
-      title: "Cylinder Sales",
-      description: "Purchase brand new LPG cylinders in various sizes. All our cylinders meet safety standards and come with warranty.",
-      features: ["New cylinders", "Various sizes", "Safety certified", "Warranty included"],
+      title: "Petroleum Products Supply",
+      description: "Supply of quality petroleum products including kerosene, diesel, and other fuel products for residential and commercial use.",
+      features: ["Quality assured", "Various quantities", "Competitive rates", "Reliable delivery"],
     },
     {
       icon: <Home className="w-12 h-12" />,
-      title: "Cylinder Rental",
-      description: "Flexible cylinder rental options for households and businesses. Ideal for those who need temporary or long-term solutions.",
-      features: ["Flexible terms", "Affordable rates", "All sizes available", "Easy renewal"],
+      title: "Oil & Gas Solutions",
+      description: "Comprehensive oil and gas distribution services tailored for industrial, commercial, and residential applications.",
+      features: ["Industrial grade", "Custom solutions", "Bulk supply", "Expert support"],
     },
     {
       icon: <Truck className="w-12 h-12" />,
-      title: "Home Delivery",
-      description: "Convenient doorstep delivery service. We bring filled cylinders right to your home, estate, or business location.",
+      title: "Door-to-Door Delivery",
+      description: "Convenient doorstep delivery service. We bring energy products right to your home, estate, or business location anywhere in Lagos.",
       features: ["Doorstep delivery", "Scheduled delivery", "Same-day service", "Lagos-wide coverage"],
     },
     {
       icon: <Building className="w-12 h-12" />,
-      title: "Commercial Supply",
-      description: "Bulk LPG supply for restaurants, hotels, industries, and businesses. Reliable supply chain for your operations.",
+      title: "Bulk Commercial Supply",
+      description: "Bulk energy supply for restaurants, hotels, industries, and businesses. Reliable supply chain for all your operational needs.",
       features: ["Bulk supply", "Reliable delivery", "Business accounts", "Custom solutions"],
     },
   ];
@@ -83,10 +83,10 @@ const Services = () => {
           <div className="max-w-3xl">
             <span className="text-primary-foreground font-semibold text-lg mb-4 block animate-fade-up drop-shadow-md">Our Services</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-up delay-100 drop-shadow-lg">
-              Comprehensive <span className="text-accent">LPG Solutions</span>
+              Comprehensive <span className="text-accent">Energy Solutions</span>
             </h1>
             <p className="text-xl text-primary-foreground/90 animate-fade-up delay-200 drop-shadow-md">
-              From cylinder refills to home delivery, we provide end-to-end LPG services tailored to your needs.
+              From LPG distribution to petroleum products and oil & gas solutions, we provide end-to-end energy services tailored to your needs.
             </p>
           </div>
         </div>

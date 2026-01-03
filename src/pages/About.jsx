@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { Target, Eye, Heart, Shield, Users, Leaf, Award, ArrowRight } from "lucide-react";
+import { useState } from "react";
 
 const About = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
   const values = [
     { icon: <Shield className="w-8 h-8" />, title: "Safety", description: "We prioritize safety in all our operations and maintain the highest industry standards." },
     { icon: <Users className="w-8 h-8" />, title: "Customer Satisfaction", description: "Our customers are at the heart of everything we do. Your satisfaction is our success." },
@@ -39,10 +41,10 @@ const About = () => {
           <div className="max-w-3xl">
             <span className="text-primary-foreground font-semibold text-lg mb-4 block animate-fade-up drop-shadow-md">About Us</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-up delay-100 drop-shadow-lg">
-              Powering Nigeria's <span className="text-accent">Clean Energy</span> Future
+              Powering Nigeria's <span className="text-accent">Energy Future</span>
             </h1>
             <p className="text-xl text-primary-foreground/90 animate-fade-up delay-200 drop-shadow-md">
-              Eligas Energies Nigeria Limited is dedicated to providing safe, affordable, and reliable LPG solutions across Nigeria.
+              Eligas Energies Nigeria Limited is dedicated to providing safe, affordable, and reliable energy solutions across Nigeria including LPG, petroleum products, and oil & gas services.
             </p>
             <div className="mt-6 animate-fade-up delay-300">
               <Link to="/contact" className="btn-hero bg-secondary hover:bg-secondary/90 inline-flex items-center gap-3">
@@ -57,19 +59,34 @@ const About = () => {
       {/* Company Overview */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="animate-fade-up">
               <span className="text-primary font-semibold text-lg">Our Story</span>
               <h2 className="section-title mt-2 mb-6">Company Overview</h2>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                Eligas Energies Nigeria Limited was incorporated in 2023 with its registered address at 1, Suru Street, Okeira, Ogba, Lagos State, Nigeria. Our primary business focus is on the retail and distribution of Liquefied Petroleum Gas (LPG) through a 2.5MT/day micro-bottling and cylinder exchange hub.
+                Eligas Energies Nigeria Limited was incorporated in 2023 with its registered address at 1, Suru Street, Okeira, Ogba, Lagos State, Nigeria. Our primary business focus encompasses the retail and distribution of Liquefied Petroleum Gas (LPG), petroleum products, and oil & gas solutions through our state-of-the-art 2.5MT/day micro-bottling and distribution hub.
               </p>
-              <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                We aim to provide clean, safe, and affordable energy solutions to households, estates, restaurants, and small industries, while contributing to Nigeria's clean energy transition agenda.
-              </p>
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                With a seasoned management team possessing a combined experience of over ten (10) years in oil and gas downstream operations, handling and supply contracts, and regulatory compliance, we are positioned to deliver operational excellence and safety in LPG distribution.
-              </p>
+              
+              {isExpanded && (
+                <>
+                  <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
+                    We are committed to providing clean, safe, and affordable energy solutions to households, estates, restaurants, small industries, and commercial establishments, while contributing significantly to Nigeria's clean energy transition agenda and energy security.
+                  </p>
+                  <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
+                    With a seasoned management team possessing a combined experience of over ten (10) years in oil and gas downstream operations, energy product handling, supply contracts, and regulatory compliance, we are positioned to deliver operational excellence, safety, and reliability in comprehensive energy distribution.
+                  </p>
+                </>
+              )}
+              
+              {!isExpanded && <span className="text-muted-foreground text-lg"></span>}
+              
+              <button
+                onClick={() => setIsExpanded(!isExpanded)}
+                className="mt-4 inline-flex items-center gap-2 text-primary font-semibold hover:text-primary/80 transition-colors"
+              >
+                {isExpanded ? "See Less" : "See More"}
+                <ArrowRight size={16} className={`transition-transform duration-300 ${isExpanded ? "rotate-90" : ""}`} />
+              </button>
             </div>
             <div className="relative animate-slide-in-right">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">

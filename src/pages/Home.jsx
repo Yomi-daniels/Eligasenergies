@@ -1,28 +1,29 @@
 import { Link } from "react-router-dom";
 import { Flame, Truck, Shield, Users, CheckCircle, ArrowRight } from "lucide-react";
 import HeroSlider from "../components/HeroSlider";
+import CounterStat from "../components/CounterStat";
 
 const Home = () => {
   const services = [
     {
       icon: <Flame className="w-8 h-8 sm:w-10 sm:h-10" />,
-      title: "Cylinder Refills",
-      description: "Quick and safe LPG refilling services at competitive prices for all cylinder sizes.",
+      title: "LPG Distribution",
+      description: "Quick and safe LPG refilling, exchange, and rental services at competitive prices for all cylinder sizes.",
     },
     {
       icon: <Truck className="w-8 h-8 sm:w-10 sm:h-10" />,
-      title: "Home Delivery",
-      description: "Convenient doorstep delivery of filled cylinders to homes, estates, and businesses.",
+      title: "Bulk Energy Supply",
+      description: "Bulk supply of petroleum products, fuel, and energy solutions for commercial and industrial customers.",
     },
     {
       icon: <Shield className="w-8 h-8 sm:w-10 sm:h-10" />,
-      title: "Cylinder Exchange",
-      description: "Exchange your empty cylinder for a pre-filled one instantly at our hub.",
+      title: "Safe Energy Solutions",
+      description: "Certified and quality-assured energy products with full compliance to safety and regulatory standards.",
     },
     {
       icon: <Users className="w-8 h-8 sm:w-10 sm:h-10" />,
-      title: "Cylinder Rental",
-      description: "Affordable cylinder rental options for households and businesses across Lagos.",
+      title: "24/7 Support",
+      description: "Round-the-clock customer support and emergency energy supply services for all clients.",
     },
   ];
 
@@ -47,10 +48,10 @@ const Home = () => {
                 We Are <span className="text-primary">Value Driven</span>
               </h2>
               <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mb-4 sm:mb-6 leading-relaxed">
-                Eligas Energies Nigeria Limited is a company incorporated in 2023, focused on the retail and distribution of Liquefied Petroleum Gas (LPG) through a 2.5MT/day micro-bottling and cylinder exchange hub in Lagos State.
+                Eligas Energies Nigeria Limited is a company incorporated in 2023, specializing in the retail and distribution of energy products including Liquefied Petroleum Gas (LPG), petroleum products, and oil & gas solutions through our state-of-the-art 2.5MT/day micro-bottling and distribution hub in Lagos State.
               </p>
               <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 leading-relaxed">
-                We aim to provide clean, safe, and affordable energy solutions to households, estates, restaurants, and small industries, while contributing to Nigeria's clean energy transition agenda.
+                We are committed to providing clean, safe, and affordable energy solutions to households, estates, restaurants, small industries, and commercial establishments, while actively contributing to Nigeria's clean energy transition agenda and energy security.
               </p>
               <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
                 {["Safety First Approach", "Quality Assurance", "Affordable Pricing", "Reliable Service"].map((item, index) => (
@@ -88,7 +89,7 @@ const Home = () => {
             <span className="text-primary font-semibold text-base sm:text-lg">What We Offer</span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-3 sm:mb-4">Our Services</h2>
             <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mx-auto">
-              We provide comprehensive LPG solutions designed to meet all your energy needs safely and efficiently.
+              We provide comprehensive energy solutions including LPG, petroleum products, and oil & gas services designed to meet all your energy needs safely and efficiently.
             </p>
           </div>
 
@@ -121,10 +122,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {stats.map((stat, index) => (
-              <div key={index} className="text-center animate-scale-in" style={{ animationDelay: `${index * 0.1}s` }}>
-                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary mb-1 sm:mb-2">{stat.value}</div>
-                <div className="text-secondary-foreground/80 text-sm sm:text-base lg:text-lg">{stat.label}</div>
-              </div>
+              <CounterStat key={index} value={stat.value} label={stat.label} />
             ))}
           </div>
         </div>
