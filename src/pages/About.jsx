@@ -91,7 +91,7 @@ const About = () => {
             <div className="relative animate-slide-in-right">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/overview_img.png"
+                  src="/About_overview.png"
                   alt="Eligas Operations"
                   className="w-full h-full object-cover"
                 />

@@ -135,7 +135,7 @@ const Home = () => {
             <div className="order-2 lg:order-1 relative animate-slide-in-left">
               <div className="aspect-video rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80"
+                  src="/overview_img.png"
                   alt="Clean Energy"
                   className="w-full h-full object-cover"
                 />
