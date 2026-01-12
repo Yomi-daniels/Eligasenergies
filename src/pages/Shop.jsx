@@ -13,7 +13,7 @@ const Shop = () => {
       category: "refill",
       name: "3kg Cylinder Refill",
       price: "₦2,500",
-      description: "Quick refill for your 3kg LPG cylinder",
+      description: "Quick refill for your 3kg cylinder",
       image: "/3kg.png",
       icon: <Flame className="w-6 h-6 sm:w-8 sm:h-8" />,
     },
@@ -22,7 +22,7 @@ const Shop = () => {
       category: "refill",
       name: "6kg Cylinder Refill",
       price: "₦5,000",
-      description: "Standard refill for your 6kg LPG cylinder",
+      description: "Standard refill for your 6kg cylinder",
       image: "/6kg.png",
       icon: <Flame className="w-6 h-6 sm:w-8 sm:h-8 " />,
     },
@@ -31,7 +31,7 @@ const Shop = () => {
       category: "refill",
       name: "12.5kg Cylinder Refill",
       price: "₦10,000",
-      description: "Full refill for your 12.5kg LPG cylinder",
+      description: "Full refill for your 12.5kg cylinder",
       image: "/12.5kg.png",
       icon: <Flame className="w-6 h-6 sm:w-8 sm:h-8" />,
     },
@@ -40,7 +40,7 @@ const Shop = () => {
       category: "refill",
       name: "25kg Cylinder Refill",
       price: "₦20,000",
-      description: "Commercial refill for your 25kg LPG cylinder",
+      description: "Commercial refill for your 25kg cylinder",
       image: "/25kg.png",
       icon: <Flame className="w-6 h-6 sm:w-8 sm:h-8" />,
     },
@@ -49,7 +49,7 @@ const Shop = () => {
       category: "refill",
       name: "50kg Cylinder Refill",
       price: "₦40,000",
-      description: "Industrial refill for your 50kg LPG cylinder",
+      description: "Industrial refill for your 50kg cylinder",
       image: "/50kg.png",
       icon: <Flame className="w-6 h-6 sm:w-8 sm:h-8" />,
     },
@@ -76,7 +76,7 @@ const Shop = () => {
       category: "purchase",
       name: "New 3kg Cylinder + Gas",
       price: "₦8,000",
-      description: "Brand new 3kg cylinder with full gas",
+      description: "Brand new 3kg cylinder with fuel",
       image: "/3kg.png",
       icon: <ShoppingBag className="w-6 h-6 sm:w-8 sm:h-8" />,
     },
@@ -85,7 +85,7 @@ const Shop = () => {
       category: "purchase",
       name: "New 6kg Cylinder + Gas",
       price: "₦15,000",
-      description: "Brand new 6kg cylinder with full gas",
+      description: "Brand new 6kg cylinder with fuel",
       image: "/6kg.png",
       icon: <ShoppingBag className="w-6 h-6 sm:w-8 sm:h-8" />,
     },
@@ -94,7 +94,7 @@ const Shop = () => {
       category: "purchase",
       name: "New 12.5kg Cylinder + Gas",
       price: "₦28,000",
-      description: "Brand new 12.5kg cylinder with full gas",
+      description: "Brand new 12.5kg cylinder with fuel",
       image: "/12.5kg.png",
       icon: <ShoppingBag className="w-6 h-6 sm:w-8 sm:h-8" />,
     },
@@ -120,7 +120,7 @@ const Shop = () => {
 
   const categories = [
     { id: "all", name: "All Products" },
-    { id: "refill", name: "Gas Refills" },
+    { id: "refill", name: "Fuel Refills" },
     { id: "exchange", name: "Cylinder Exchange" },
     { id: "purchase", name: "Buy Cylinders" },
     { id: "rental", name: "Cylinder Rental" },
@@ -170,7 +170,7 @@ const Shop = () => {
           <div className="max-w-3xl">
             <span className="text-primary-foreground font-semibold text-base sm:text-lg mb-2 sm:mb-4 block animate-fade-up">Shop</span>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-4 sm:mb-6 animate-fade-up delay-100">
-              Order Your <span className="text-accent">LPG Gas</span> Today
+              Order Energy Products <span className="text-accent">(LPG available)</span>
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-primary-foreground/80 max-sm:text-white animate-fade-up delay-200">
               Browse our products and place your order via WhatsApp. Fast delivery guaranteed.

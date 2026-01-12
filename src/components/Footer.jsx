@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-secondary-foreground/80 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
-              Championing cleaner energy adoption by providing safe and affordable LPG solutions across Nigeria.
+              Championing cleaner energy adoption by providing safe and affordable oil, gas, and petroleum solutions across Nigeria, with LPG available as a complementary option.
             </p>
             <div className="flex gap-3 sm:gap-4">
               <a href="#" className="w-9 h-9 sm:w-10 sm:h-10 bg-primary/20 hover:bg-primary rounded-full flex items-center justify-center transition-colors">

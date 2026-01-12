@@ -7,8 +7,8 @@ const Home = () => {
   const services = [
     {
       icon: <Flame className="w-8 h-8 sm:w-10 sm:h-10" />,
-      title: "LPG Distribution",
-      description: "Quick and safe LPG refilling, exchange, and rental services at competitive prices for all cylinder sizes.",
+      title: "Oil, Gas & Petroleum Distribution",
+      description: "Bulk and retail supply of petroleum products, oil & gas solutions, and LPG as a complementary clean-fuel option.",
     },
     {
       icon: <Truck className="w-8 h-8 sm:w-10 sm:h-10" />,
@@ -48,7 +48,7 @@ const Home = () => {
                 We Are <span className="text-primary">Value Driven</span>
               </h2>
               <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mb-4 sm:mb-6 leading-relaxed">
-                Eligas Energies Nigeria Limited is a company incorporated in 2023, specializing in the retail and distribution of energy products including Liquefied Petroleum Gas (LPG), petroleum products, and oil & gas solutions through our state-of-the-art 2.5MT/day micro-bottling and distribution hub in Lagos State.
+                Eligas Energies Nigeria Limited is a company incorporated in 2023, specializing in the retail and distribution of energy products — primarily oil, gas, and petroleum products — with LPG offered as a complementary clean-fuel option through our state-of-the-art 2.5MT/day micro-bottling and distribution hub in Lagos State.
               </p>
               <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 leading-relaxed">
                 We are committed to providing clean, safe, and affordable energy solutions to households, estates, restaurants, small industries, and commercial establishments, while actively contributing to Nigeria's clean energy transition agenda and energy security.
@@ -69,7 +69,7 @@ const Home = () => {
               <div className="aspect-square rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src="/experience.png"
-                  alt="LPG Gas Station"
+                  alt="Energy Distribution Hub"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -88,8 +88,8 @@ const Home = () => {
           <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12 lg:mb-16">
             <span className="text-primary font-semibold text-base sm:text-lg">What We Offer</span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-3 sm:mb-4">Our Services</h2>
-            <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mx-auto">
-              We provide comprehensive energy solutions including LPG, petroleum products, and oil & gas services designed to meet all your energy needs safely and efficiently.
+              <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mx-auto">
+              We provide comprehensive energy solutions prioritizing oil, gas, and petroleum products, with LPG available as a complementary option to meet your energy needs safely and efficiently.
             </p>
           </div>
 
@@ -147,7 +147,7 @@ const Home = () => {
                 We <span className="text-primary">Believe</span>
               </h2>
               <p className="text-muted-foreground text-sm sm:text-base lg:text-lg mb-4 sm:mb-6 leading-relaxed">
-                To champion cleaner energy adoption by providing safe and affordable LPG solutions, reducing dependence on firewood and deforestation, and creating a sustainable environment for future generations.
+                To champion cleaner energy adoption by providing safe and affordable oil, gas, and petroleum solutions, while offering LPG as a complementary clean-fuel option to reduce dependence on firewood and deforestation for future generations.
               </p>
               <div className="space-y-3 sm:space-y-4">
                 <div className="flex items-start gap-3 sm:gap-4">
@@ -181,7 +181,7 @@ const Home = () => {
             Ready to Switch to Clean Energy?
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Contact us today for affordable LPG solutions. We deliver quality service right to your doorstep.
+            Contact us today for affordable oil, gas, and petroleum solutions — LPG is available as a complementary option. We deliver quality service right to your doorstep.
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
             <Link to="/shop" className="btn-hero bg-secondary hover:bg-secondary/90 text-sm sm:text-base">

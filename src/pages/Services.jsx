@@ -5,8 +5,8 @@ const Services = () => {
   const services = [
     {
       icon: <Flame className="w-12 h-12" />,
-      title: "LPG Refilling & Distribution",
-      description: "Quick and safe LPG refilling services at competitive prices. We handle all cylinder sizes from 3kg to 50kg with precision and care.",
+      title: "Refilling & Distribution",
+      description: "Quick and safe refilling and distribution services for petroleum products and LPG. We handle cylinders and bulk supply with precision and care.",
       features: ["All cylinder sizes", "Quality assured gas", "Competitive pricing", "Quick turnaround"],
     },
     {
@@ -49,12 +49,12 @@ const Services = () => {
     },
     {
       title: "Restaurants & Hotels",
-      description: "Reliable LPG supply to power your commercial kitchen operations.",
+      description: "Reliable fuel supply to power your commercial kitchen operations.",
       icon: <Building className="w-8 h-8" />,
     },
     {
       title: "Small Industries",
-      description: "Industrial-grade LPG solutions for manufacturing and production.",
+      description: "Industrial-grade energy solutions for manufacturing and production.",
       icon: <Flame className="w-8 h-8" />,
     },
   ];
@@ -86,7 +86,7 @@ const Services = () => {
               Comprehensive <span className="text-accent">Energy Solutions</span>
             </h1>
             <p className="text-xl text-primary-foreground/90 animate-fade-up delay-200 drop-shadow-md">
-              From LPG distribution to petroleum products and oil & gas solutions, we provide end-to-end energy services tailored to your needs.
+              From oil, gas, and petroleum distribution to LPG services, we provide end-to-end energy solutions tailored to your needs.
             </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ const Services = () => {
             <span className="text-primary font-semibold text-lg">Who We Serve</span>
             <h2 className="section-title mt-2 mb-4">Our Customers</h2>
             <p className="section-subtitle mx-auto">
-              We cater to diverse customer segments with tailored LPG solutions.
+              We cater to diverse customer segments with tailored energy solutions.
             </p>
           </div>
 
@@ -160,9 +160,9 @@ const Services = () => {
 
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { step: "01", title: "Bulk Procurement", description: "LPG purchased in bulk and stored at our micro-terminal." },
-              { step: "02", title: "Micro-Bottling", description: "LPG filled into smaller, portable cylinders for various needs." },
-              { step: "03", title: "Cylinder Exchange", description: "Customers exchange empty cylinders for pre-filled ones." },
+              { step: "01", title: "Bulk Procurement", description: "Fuel and petroleum products purchased in bulk and stored at our micro-terminal." },
+              { step: "02", title: "Micro-Bottling", description: "Products filled into smaller dispensable units or cylinders for varied customer needs." },
+              { step: "03", title: "Cylinder Exchange", description: "Customers exchange empty cylinders for pre-filled ones when applicable." },
               { step: "04", title: "Last-Mile Delivery", description: "Direct delivery to homes, estates, and businesses." },
             ].map((item, index) => (
               <div key={index} className="text-center animate-fade-up" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -189,7 +189,7 @@ const Services = () => {
               Shop Now <ArrowRight size={18} />
             </Link>
             <a
-              href="https://wa.me/2349076412314?text=Hello! I'm interested in your LPG services."
+              href="https://wa.me/2349076412314?text=Hello! I'm interested in your energy services."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-hero bg-green-500 hover:bg-green-600"

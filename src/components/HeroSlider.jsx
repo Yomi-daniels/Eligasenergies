@@ -9,8 +9,8 @@ const slides = [
   {
     id: 1,
     title: "Energy for You",
-    subtitle: "Clean & Affordable LPG Solutions",
-    description: "Championing cleaner energy adoption across Nigeria with safe, reliable LPG distribution services.",
+    subtitle: "Clean & Reliable Energy Solutions",
+    description: "Championing cleaner energy adoption across Nigeria with safe, reliable oil, gas, and petroleum distribution services (LPG available as a complementary option).",
     cta: "Learn More",
     link: "/about",
     image: heroBg,
@@ -18,8 +18,8 @@ const slides = [
   {
     id: 2,
     title: "Quality Service",
-    subtitle: "Your Trusted LPG Partner",
-    description: "We deliver excellence in LPG operations with uncompromising quality, safety, and reliability.",
+    subtitle: "Your Trusted Energy Partner",
+    description: "We deliver excellence in oil, gas, and petroleum operations with uncompromising quality, safety, and reliability.",
     cta: "Our Services",
     link: "/services",
     image: heroBg2,

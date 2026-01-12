@@ -275,10 +275,10 @@ ${formData.message}
             Looking to Partner With Us?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            We're looking for filling stations to partner with as LPG service stations and distribution hubs. Reach out to us today!
+            We're looking for filling stations to partner with as fuel and distribution hubs (including LPG services where applicable). Reach out to us today!
           </p>
           <a
-            href="https://wa.me/2349076412314?text=Hello! I'm interested in partnering with Eligas Energies as a filling station."
+            href="https://wa.me/2349076412314?text=Hello! I'm interested in partnering with Eligas Energies as a fuel and distribution hub."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-hero bg-secondary hover:bg-secondary/90 inline-flex items-center gap-2"

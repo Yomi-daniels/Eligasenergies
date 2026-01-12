@@ -44,7 +44,7 @@ const About = () => {
               Powering Nigeria's <span className="text-accent">Energy Future</span>
             </h1>
             <p className="text-xl text-primary-foreground/90 animate-fade-up delay-200 drop-shadow-md">
-              Eligas Energies Nigeria Limited is dedicated to providing safe, affordable, and reliable energy solutions across Nigeria including LPG, petroleum products, and oil & gas services.
+              Eligas Energies Nigeria Limited is dedicated to providing safe, affordable, and reliable energy solutions across Nigeria — prioritizing oil, gas, and petroleum products while offering LPG as a complementary clean-fuel option.
             </p>
             <div className="mt-6 animate-fade-up delay-300">
               <Link to="/contact" className="btn-hero bg-secondary hover:bg-secondary/90 inline-flex items-center gap-3">
@@ -64,7 +64,7 @@ const About = () => {
               <span className="text-primary font-semibold text-lg">Our Story</span>
               <h2 className="section-title mt-2 mb-6">Company Overview</h2>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                Eligas Energies Nigeria Limited was incorporated in 2023 with its registered address at 1, Suru Street, Okeira, Ogba, Lagos State, Nigeria. Our primary business focus encompasses the retail and distribution of Liquefied Petroleum Gas (LPG), petroleum products, and oil & gas solutions through our state-of-the-art 2.5MT/day micro-bottling and distribution hub.
+                Eligas Energies Nigeria Limited was incorporated in 2023 with its registered address at 1, Suru Street, Okeira, Ogba, Lagos State, Nigeria. Our primary business focus encompasses the retail and distribution of oil & gas and petroleum products, with LPG available as a complementary offering through our state-of-the-art 2.5MT/day micro-bottling and distribution hub.
               </p>
               
               {isExpanded && (
@@ -118,7 +118,7 @@ const About = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
-                  <span>To deliver excellence in LPG operations with uncompromising quality, safety, reliability, and efficiency.</span>
+                  <span>To deliver excellence in oil, gas, and petroleum operations with uncompromising quality, safety, reliability, and efficiency.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
@@ -141,8 +141,8 @@ const About = () => {
                 <Eye className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-heading font-bold text-secondary-foreground mb-4">Our Vision</h3>
-              <p className="text-secondary-foreground/80 text-lg leading-relaxed mb-6">
-                To champion cleaner energy adoption by providing safe and affordable LPG solutions, reducing dependence on firewood and deforestation, and creating a sustainable environment for future generations.
+                <p className="text-secondary-foreground/80 text-lg leading-relaxed mb-6">
+                To champion cleaner energy adoption by providing safe and affordable oil, gas, and petroleum solutions, offering LPG as a complementary clean-fuel option to reduce dependence on firewood and deforestation for future generations.
               </p>
               <div className="flex items-center gap-3 text-primary font-semibold text-xl">
                 <Heart className="w-6 h-6" />
@@ -219,7 +219,7 @@ const About = () => {
             Partner With Us Today
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            We're looking for filling stations to partner with as LPG service stations and distribution hubs.
+            We're looking for filling stations to partner with as fuel and distribution hubs (including LPG services where applicable).
           </p>
           <Link to="/contact" className="btn-hero bg-secondary hover:bg-secondary/90 inline-flex items-center gap-2">
             Reach Out to Us <ArrowRight size={18} />
